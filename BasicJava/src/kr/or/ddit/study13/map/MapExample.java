@@ -28,21 +28,21 @@ public class MapExample {
 		map.put("정몽주", 84);
 		map.put("이성계", 93);
 		
-		//이성계 점수 출력하기
-		System.out.println(map.get("이성계"));
-		
-		//홍길동 점수 5점 추가하기
-		int n = map.get("홍길동")+5;
-		map.put("홍길동", n);
-		
-		
-		//전체출력하기
-		Set<String> keySet = map.keySet();
-		Iterator<String> it = keySet.iterator();
-		while(it.hasNext()){
-			String key = it.next();
-			System.out.println(key + ": " + map.get(key));
-		}
-		
+//		//이성계 점수 출력하기
+//		System.out.println(map.get("이성계"));
+//		
+//		//홍길동 점수 5점 추가하기
+//		int n = map.get("홍길동")+5;
+//		map.put("홍길동", n);
+//		
+//		
+//		//전체출력하기
+//		Set<String> keySet = map.keySet();
+//		Iterator<String> it = keySet.iterator();
+//		while(it.hasNext()){
+//			String key = it.next();
+//			System.out.println(key + ": " + map.get(key));
+//		}
+		int score = map.get("홍길동2");
 	}
 }
